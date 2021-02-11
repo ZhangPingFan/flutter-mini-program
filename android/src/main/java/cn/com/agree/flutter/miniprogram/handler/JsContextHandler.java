@@ -1,6 +1,6 @@
 package cn.com.agree.flutter.miniprogram.handler;
 
-import android.support.annotation.Nullable;
+//import android.support.annotation.Nullable;
 
 import org.liquidplayer.javascript.JSContext;
 import org.liquidplayer.javascript.JSException;
@@ -110,12 +110,12 @@ public class JsContextHandler implements MethodChannel.MethodCallHandler, EventC
                         arguments.put("functionId", functionId);
                         jsContextChannel.invokeMethod("dynamicFunction", arguments, new MethodChannel.Result() {
                             @Override
-                            public void success(@Nullable Object returnValue) {
+                            public void success(Object returnValue) {
                                 resolve.call(resolve, returnValue);
                             }
 
                             @Override
-                            public void error(String type, @Nullable String errorMessage, @Nullable Object o) {
+                            public void error(String type, String errorMessage, Object o) {
                                 error.call(error, type, errorMessage);
                             }
 

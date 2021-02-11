@@ -1,5 +1,5 @@
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart' hide Page;
+import 'package:flutter/material.dart' hide Page;
 import 'package:flutter_mini_program/Page.dart';
 import 'package:flutter_mini_program/utils/ConvertUtil.dart';
 import 'package:html/dom.dart' as dom;

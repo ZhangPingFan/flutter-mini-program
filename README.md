@@ -4,6 +4,8 @@
 
 A Flutter's mini-program development framework by parsing HTML、CSS and JS / Dart. This Project is inspired by [FlutterHtmlView](https://github.com/PonnamKarthik/FlutterHtmlView).
 
+PS: The repository is forked from [zhaomenghuan/flutter-mini-program](https://github.com/zhaomenghuan/flutter-mini-program) . Cause the original can't work well, we have made some modifications on it to adapt to flutter v1.20.0+. Only supports on Android currently.
+
 ## Features
 
 - Convert html tags to flutter widgets

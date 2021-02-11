@@ -2,6 +2,8 @@
 
 一个基于 Flutter 框架的小程序开发框架。通过解析 HTML 标签 和 CSS 样式，用于开发小程序应用，项目灵感来自 [FlutterHtmlView](https://github.com/PonnamKarthik/FlutterHtmlView)。
 
+PS: 仓库fork自 [zhaomenghuan/flutter-mini-program](https://github.com/zhaomenghuan/flutter-mini-program) ，原仓库已经无法正常运行，故对其做了一些修改以适配支持1.20.0以上版本的flutter。目前支持示例在安卓平台上正常运行。
+
 ## 特性
 
 - 将 html 标签转换为 Flutter 组件

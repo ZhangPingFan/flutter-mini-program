@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart' hide Page;
 import 'package:flutter_mini_program/Page.dart';
 import 'package:flutter_mini_program/StyleParser.dart';
 import 'package:flutter_mini_program/utils/ConvertUtil.dart';

@@ -3,12 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_mini_program/engine/JSContext.dart';
 
 class App {
-  static Router router;
+  static FluroRouter router;
   static JSContext jsContext;
 
   static init(BuildContext context, {routes}) {
     // Router
-    var router = new Router();
+    var router = new FluroRouter();
 
     // 404
     router.notFoundHandler = new Handler(

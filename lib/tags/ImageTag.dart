@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart' hide Page;
 import 'package:flutter_mini_program/Page.dart';
 import 'package:flutter_mini_program/utils/ConvertUtil.dart';
 import 'package:html/dom.dart' as dom;

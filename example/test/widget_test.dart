@@ -13,7 +13,7 @@ import 'package:flutter_mini_program_example/main.dart';
 void main() {
   testWidgets('Verify Platform version', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(MiniProgramApp());
+    await tester.pumpWidget(MyApp());
 
     // Verify that platform version is retrieved.
     expect(
@@ -23,29 +23,5 @@ void main() {
       ),
       findsOneWidget,
     );
-
-//      Map<String, dynamic> pages = AppConfig['pages'];
-//      if (Application.router == null) {
-//        for (var page in pages.entries) {
-//          var pagePath = pages[page.key];
-//          registerRoute(router, page.key, "assets/$pagePath");
-//        }
-//        Application.router = router;
-//      }
-//
-//    Future<void> loadAppConfig() async {
-//      var config =
-//      await ResourceUtil.loadStringFromAssetFile(context, "assets/app.json");
-//      setState(() {
-//        AppConfig = json.decode(config);
-//      });
-//    }
-//
-//    void registerRoute(Router router, String routePath, String pagePath) {
-//      router.define(routePath, handler: new Handler(
-//          handlerFunc: (BuildContext context, Map<String, List<String>> params) {
-//            return new BasePageView(url: pagePath);
-//          }));
-//    }
   });
 }
